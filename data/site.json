@@ -1,0 +1,205 @@
+{
+ "name": "HEER PATEL",
+ "tag": "AI/ML aspirant · Solar coordinator · Web & automation dev",
+ "email": "heerpatel2300@gmail.com",
+ "hero": "",
+ "music": "",
+ "musicName": "",
+ "about": "Versatile technical professional across solar project coordination, freelance web development, workflow automation, data analytics and technical training. I build n8n automations, AI agents with the Google AI Studio API and Power BI dashboards, and I like explaining technical ideas to non-technical people. Currently deepening applied AI/ML ahead of graduate study.",
+ "h2t": "BUILD. AUTOMATE. DESIGN.",
+ "h2s": "Web · Automation · AI/ML · Design — Gujarat, India",
+ "h2i": "",
+ "resume": "/uploads/a1b2c3d4e5f60718.docx",
+ "resumeName": "Heer_Patel_CV.docx",
+ "timeline": [
+  {
+   "t": "Solar Project Coordinator · Green Solar System",
+   "m": "Mar 2026 – Now"
+  },
+  {
+   "t": "Freelance Web & Automation · Self-employed",
+   "m": "Feb 2026 – Now"
+  },
+  {
+   "t": "Technical Interview Trainer · Techsara",
+   "m": "Oct 2025 – Feb 2026"
+  },
+  {
+   "t": "Data Science Intern · MJ Computers",
+   "m": "Jun – Aug 2025"
+  },
+  {
+   "t": "BCA · Charusat University",
+   "m": "2022–2025 · CGPA 8.68"
+  }
+ ],
+ "skills": [
+  {
+   "g": "Programming Languages",
+   "items": [
+    "Java",
+    "Python",
+    "C",
+    "C++",
+    "PHP",
+    "C#"
+   ]
+  },
+  {
+   "g": "Web & Database Technologies",
+   "items": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    ".NET",
+    "MySQL",
+    "Full-Stack Web Development"
+   ]
+  },
+  {
+   "g": "AI, ML & NLP",
+   "items": [
+    "Generative AI (Gen AI)",
+    "spaCy",
+    "Natural Language Processing (NLP) concepts",
+    "AI agent development (Google AI Studio API)",
+    "Responsible AI concepts (fairness, transparency, bias awareness)"
+   ]
+  },
+  {
+   "g": "Data Analytics & BI",
+   "items": [
+    "Power BI",
+    "NumPy",
+    "Pandas"
+   ]
+  },
+  {
+   "g": "Automation & Integration",
+   "items": [
+    "n8n workflow automation",
+    "Google OAuth (Sheets, Calendar, Gmail)"
+   ]
+  },
+  {
+   "g": "Project & Management Skills",
+   "items": [
+    "Agile Project Management",
+    "Predictive Project Management",
+    "Scrum",
+    "Jira",
+    "Pair Programming",
+    "Team Coordination",
+    "Client Management"
+   ]
+  },
+  {
+   "g": "Design & Marketing",
+   "items": [
+    "Poster Making",
+    "Advertisement Campaign Writing",
+    "Figma",
+    "Canva",
+    "UI/UX & Wireframing"
+   ]
+  },
+  {
+   "g": "Tools & Platforms",
+   "items": [
+    "WordPress",
+    "Wix Studio"
+   ]
+  }
+ ],
+ "certs": [],
+ "socials": [
+  {
+   "l": "LinkedIn",
+   "u": "https://www.linkedin.com/in/heer-patel-887b9627b"
+  },
+  {
+   "l": "GitHub",
+   "u": ""
+  },
+  {
+   "l": "WhatsApp",
+   "u": "https://wa.me/917984046970"
+  }
+ ],
+ "cats": [
+  {
+   "id": "web",
+   "t": "Web Dev",
+   "i": "</>",
+   "cover": "",
+   "p": [
+    {
+     "t": "Pet Adoption Platform",
+     "d": "Full client build: features, UI/UX, API integration, testing.",
+     "img": "",
+     "u": ""
+    },
+    {
+     "t": "E-Shopping Website",
+     "d": "Responsive storefront delivered end to end.",
+     "img": "",
+     "u": ""
+    },
+    {
+     "t": "n8n Automation & AI Agent Suite",
+     "d": "Gmail, Calendar, Sheets via Google OAuth + Google AI Studio agent.",
+     "img": "",
+     "u": ""
+    },
+    {
+     "t": "Power BI Dashboards",
+     "d": "Sales, marketing and operations analytics.",
+     "img": "",
+     "u": ""
+    }
+   ]
+  },
+  {
+   "id": "desk",
+   "t": "Desktop Apps",
+   "i": "▣",
+   "cover": "",
+   "p": [
+    {
+     "t": "Add your desktop app",
+     "d": "Log in to the admin panel to add projects here.",
+     "img": "",
+     "u": ""
+    }
+   ]
+  },
+  {
+   "id": "gfx",
+   "t": "Graphic Design",
+   "i": "✎",
+   "cover": "",
+   "p": [
+    {
+     "t": "Poster Design",
+     "d": "Posters made in Figma and Canva.",
+     "img": "",
+     "u": ""
+    }
+   ]
+  },
+  {
+   "id": "mkt",
+   "t": "Marketing",
+   "i": "✦",
+   "cover": "",
+   "p": [
+    {
+     "t": "Ad Campaign Writing",
+     "d": "Copy, social media and community management.",
+     "img": "",
+     "u": ""
+    }
+   ]
+  }
+ ]
+}

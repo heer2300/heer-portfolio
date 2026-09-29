@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heer Patel — Portfolio</title>
+<script>try{var t=localStorage.getItem('hp_theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='dark'}</script>
+<link rel="stylesheet" href="/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Mono:wght@400;700&family=Unbounded:wght@700;900&family=VT323&display=swap" rel="stylesheet">
+</head><body>
+<nav><b>H.P//</b><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#certs">Certs</a><a href="#arcade">Arcade</a><a href="#contact">Connect</a><a href="#minesweeper">Mines</a></div>
+<span class="tools"><button id="mus">♫ Play</button><button id="thm">☀ Light</button></span></nav>
+
+<header id="hero"><div class="stage" id="stage">
+ <div class="sticker">SYSTEM ONLINE</div><div class="tag" id="tag"></div>
+ <div class="frame" id="frame"></div><h1 class="name" id="nm"></h1></div>
+ <div class="soc" id="soc1"></div><div class="scroll">▼ SCROLL</div></header>
+
+<section id="about"><h2><small>// 01 PROFILE</small>ABOUT</h2>
+<div class="about"><div class="panel"><p id="abt" style="margin:0"></p></div><div class="panel tl" id="tlb"></div></div></section>
+
+<section id="hero2"><div class="h2stage" id="h2stage"><div class="h2c"><div class="pt"><span>HEER.PATEL</span><span>PORTFOLIO '26</span></div>
+<div class="h2t" id="h2t"></div><p id="h2s"></p><a id="rbtn" class="rb" href="#">⬇ Download Resume</a></div>
+<div class="h2art" id="h2art"></div><strong class="h2arrow">↗</strong></div></section>
+
+<section id="skills"><h2><small>// 02 STACK</small>SKILLS</h2><div class="sk" id="skg"></div></section>
+
+<section id="work"><h2><small>// 03 PROJECTS</small><span class="hl">WORK <i></i><em>click a card to see the description</em></span></h2><div class="grid" id="cards"></div></section>
+
+<section id="certs"><h2><small>// 04 PROOF</small>CERTIFICATES</h2><div class="cg" id="certg"></div></section>
+
+<section id="arcade"><div class="duo">
+<div><h2><small>// 05 INSERT COIN</small>BUG HUNT</h2><div class="panel">
+<div class="bar"><span>SCORE <b id="sc">0</b></span><span>TIME <b id="tm">20</b></span><span>BEST <b id="bs">0</b></span></div>
+<div class="game" id="game"></div><p style="margin-bottom:0"><button id="go">Start</button></p></div></div>
+<div id="contact"><h2><small>// 05 TRANSMIT</small>CONNECT</h2><div class="panel"><div class="soc" id="soc2" style="justify-content:flex-start;margin:0 0 18px"></div>
+<label>Your name</label><input id="cn"><label>Your email (optional)</label><input id="ce" type="email"><label>Message</label><textarea id="cm" rows="4"></textarea>
+<button id="send">Send message ✉</button> <button id="copy">Copy address</button><p id="cs" style="font-size:12px"></p></div></div>
+</div></section>
+
+<section id="minesweeper"><h2><small>// 06 LEVEL 2</small>MINESWEEPER</h2><div class="panel">
+<div class="bar"><span>MINES <b id="mleft">32</b></span><span>TIME <b id="mtime">0</b></span><span>BEST <b id="mbest">–</b></span></div>
+<div class="mwrap"><div id="mine"></div></div>
+<p class="bar" id="mmsg" style="min-height:30px;margin:10px 0 6px"></p>
+<button id="mnew">New game</button> <button id="mflag">⚑ Flag mode: off</button>
+<p style="font-size:12px;margin-bottom:0">Click to open · right-click (or Flag mode on phones) to plant a flag.</p></div></section>
+
+<footer>© Heer Patel · Gujarat, India · <a href="#" id="adminlink" style="color:inherit;opacity:.5">admin</a></footer>
+<div id="toast"></div>
+<div id="lb"><div><img id="lbi" alt="Certificate"><br><a id="lbl" target="_blank" rel="noopener noreferrer">Open link ↗</a></div></div>
+
+<div id="modal"><div class="panel"><h3 style="font-family:var(--disp);margin-top:0">ADMIN LOGIN</h3><label>Password</label><input id="pw" type="password" autocomplete="current-password"><p id="ls" style="color:var(--red);font-size:12px;min-height:18px"></p><button id="lg">Log in</button> <button id="lc">Cancel</button></div></div>
+
+<aside id="adm"><button id="x" style="float:right">Close</button><h3 style="font-family:var(--disp);color:var(--lab)">CONTROL PANEL</h3>
+<p style="font-size:12px" id="ms">Changes save automatically.</p>
+<details open><summary>Hero</summary><label>Name</label><input id="an"><label>Tagline</label><input id="at"><label>Email</label><input id="ae"><label>Hero image</label><input type="file" id="ah" accept="image/*"><button id="rh">Remove image</button></details>
+<details><summary>Big banner (after About)</summary><label>Headline</label><input id="a2t"><label>Sub line</label><input id="a2s"><label>Image</label><input type="file" id="a2i" accept="image/*"><button id="r2">Remove image</button></details>
+<details><summary>About &amp; timeline</summary><label>About text</label><textarea id="aab" rows="6"></textarea><label>Timeline (role · place, then date)</label><div id="tll"></div><button id="tla">+ Add entry</button></details>
+<details><summary>Skills</summary><div id="skl"></div><button id="ska">+ Add skill group</button></details>
+<details><summary>Resume</summary><p id="rn" style="font-size:12px"></p><label>PDF or Word file (max 10 MB)</label><input type="file" id="rf" accept=".pdf,.docx"><button id="rr">Remove resume</button><p style="font-size:12px">Readable page: <a href="/resume" target="_blank" style="color:var(--lab)">/resume ↗</a></p></details>
+<details><summary>Contact form (email)</summary><p style="font-size:12px">Messages sent from the Connect form are emailed to you via Gmail. Create a Gmail <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener noreferrer" style="color:var(--lab)">App Password</a> (needs 2-Step Verification on) and paste it below — don't use your normal password.</p>
+<label>Gmail address</label><input id="se"><label>App password (16 characters)</label><input id="sp" type="password" placeholder="•••• •••• •••• ••••"><button id="ssave">Save contact settings</button><p id="sst" style="font-size:12px"></p></details>
+<details><summary>Backup</summary><p style="font-size:12px">Download everything — your content and uploaded files — as a zip.</p><button id="bkp">⬇ Download backup</button></details>
+<details><summary>Music</summary><p id="mn" style="font-size:12px"></p><label>Audio file (mp3, ogg, wav, m4a · max 25 MB)</label><input type="file" id="mf" accept="audio/*"><button id="mr">Remove music</button></details>
+<details><summary>Connect links</summary><div id="sl"></div><button id="sa">+ Add link</button></details>
+<details><summary>Categories</summary><div id="cl"></div><label>New category name</label><input id="cn2" maxlength="24"><label>Glyph (1–3 chars)</label><input id="cg" value="★" maxlength="3"><button id="ca">Add category</button></details>
+<details><summary>Projects</summary><label>Category</label><select id="ac"></select><label>Title (3–5 words)</label><input id="pt" maxlength="40" placeholder="e.g. Pet Adoption Platform"><label>Description</label><textarea id="pd" rows="2"></textarea><label>Link (optional)</label><input id="pu" placeholder="https://"><label>Image</label><input type="file" id="pi" accept="image/*"><button id="pa">Add project</button><div id="pl" style="margin-top:12px"></div></details>
+<details><summary>Certificates</summary><label>Title</label><input id="ct" maxlength="60"><label>Issued by</label><input id="cb" maxlength="40"><label>Year</label><input id="cy" maxlength="12"><label>Link (optional)</label><input id="cu" placeholder="https://"><label>Certificate image</label><input type="file" id="cim" accept="image/*"><button id="cadd">Add certificate</button><div id="cel" style="margin-top:12px"></div></details>
+<details><summary>Password &amp; session</summary><label>Current</label><input type="password" id="op"><label>New (6+ chars)</label><input type="password" id="np"><button id="cp">Change password</button> <button id="lo">Log out</button></details>
+</aside>
+<script src="/app.js"></script></body></html>
