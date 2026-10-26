@@ -134,26 +134,20 @@
    "cover": "",
    "p": [
     {
-     "t": "Pet Adoption Platform",
-     "d": "Full client build: features, UI/UX, API integration, testing.",
+     "t": "Portfolio Website",
+     "d": "A retro-style portfolio website inspired by the 80s and 90s, featuring pixel art, vintage colors, bold typography, and playful animations.",
      "img": "",
-     "u": ""
+     "u": "https://heer-portfolio-in1d.onrender.com/"
     },
     {
-     "t": "E-Shopping Website",
-     "d": "Responsive storefront delivered end to end.",
+     "t": "Street-punk",
+     "d": "A street-punk style portfolio website featuring edgy typography, graffiti, ripped-paper textures, bold colors, and rebellious urban aesthetics.",
      "img": "",
-     "u": ""
+     "u": "https://portfolio-next-tan-theta.vercel.app/"
     },
     {
-     "t": "n8n Automation & AI Agent Suite",
-     "d": "Gmail, Calendar, Sheets via Google OAuth + Google AI Studio agent.",
-     "img": "",
-     "u": ""
-    },
-    {
-     "t": "Power BI Dashboards",
-     "d": "Sales, marketing and operations analytics.",
+     "t": "Pet Adoption website",
+     "d": "A cute, heartwarming pet adoption website where people can discover adorable pets",
      "img": "",
      "u": ""
     }
@@ -166,10 +160,10 @@
    "cover": "",
    "p": [
     {
-     "t": "Add your desktop app",
-     "d": "Log in to the admin panel to add projects here.",
+     "t": "Solar Management System",
+     "d": "A modern desktop application for solar management companies to manage customers, track solar installations, schedule site visits, and monitor project progress.\nFeaturing customer records, installation tracking, subsidy documentation, cost estimates, and service management in one easy-to-use dashboard",
      "img": "",
-     "u": ""
+     "u": "https://github.com/heer2300/Green-Solar-System-Desktop-App"
     }
    ]
   },
@@ -180,8 +174,8 @@
    "cover": "",
    "p": [
     {
-     "t": "Poster Design",
-     "d": "Posters made in Figma and Canva.",
+     "t": "UI and Posters",
+     "d": "Created eye-catching graphic designs for social media, including promotional posters, product advertisements, and Instagram creatives. Focused on attractive layouts, consistent branding, and colorful visuals to engage customers and showcase products.",
      "img": "",
      "u": ""
     }
@@ -192,12 +186,19 @@
    "t": "Marketing",
    "i": "✦",
    "cover": "",
+   "p": []
+  },
+  {
+   "id": "cmvpbc4g2",
+   "t": "Instagram & Social Media",
+   "i": "★",
+   "cover": "",
    "p": [
     {
-     "t": "Ad Campaign Writing",
-     "d": "Copy, social media and community management.",
+     "t": "Om General Store",
+     "d": "Managed Om General Store’s Instagram account by creating eye-catching promotional posters, product showcases, and engaging social media content. Focused on building brand awareness, attracting local customers, and growing organic reach through creative visual designs.",
      "img": "",
-     "u": ""
+     "u": "https://www.instagram.com/om._.generalstore?obrf=emRjNm85dXJ0d2Y3"
     }
    ]
   }
